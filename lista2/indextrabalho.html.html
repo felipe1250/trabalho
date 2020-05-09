@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>COMVERSE CONOSCO</title>
+    <style type="text/css">
+        .container {background-image: linear-gradient(to right,#00FF00,#00FFFF,#00BFFF,#0B0B3B);
+          margin: auto;
+            
+            }
+        header {
+            background-image: linear-gradient(to bottom,#191970,#008000);
+           padding: 20PX;
+        
+        }
+        footer {
+            background-image: linear-gradient(to top,#00FFFF,#008080);
+            border: 10px;
+            padding: 18px;
+            clear: both;
+            width: 100%;
+            position: relative;
+        }
+        p {
+            font-family: "courier,arial,helvetica";
+            font-size: 12;
+            color:#F5FFFA ;
+            text-align: center;
+        }
+        label {
+            font-size: 19;
+            font-style:Arial;
+            font-weight: bold;
+        }
+        li {
+            font-size: 21;
+            font-weight: bold;
+        }
+        #lista {
+            float: left;
+            padding: 125px;
+            padding-right: 150px;
+            min-width: 499px;
+            min-height: 400px;
+        }
+        #formulario {
+            float: right;
+            padding: 120px;
+            padding-left: 10px;
+            min-width: 400px;
+            min-height: 400px;
+        }
+        #nuvens {
+            margin: 0px 0px 20px 199px;
+            padding: 0px 0px 87px 0px;
+        }
+        #conteudo {
+            position: absolute;
+            width: 100%;
+        }
+        
+        * {padding: 0%;
+        margin: 0%;
+        }
+        #botao {
+            margin-left:60px ;
+            border:5px;
+            border-radius: 10px;
+        }
+        #PARATODOS {
+            float: left;
+            padding-top: 30px;
+            padding-left: 55px;
+        }
+        #PARATODOS a {
+            font-size: 20;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #PARATODOS a:hover{
+            background-image: linear-gradient(to top, #0A2229,#A9F5F2 );
+            padding: 36px 0px 36px 0px;
+        }
+
+    </style>
+</head>
+
+<body> 
+<div class="container">
+    <header>
+        <div id="PARATODOS"><a href="PARATODOS.html">PARA TODOS </a></div>
+        <h1 style="font-family:georgia,Helvetica; color:#EFFBFB ;text-align: center; padding-top: 40px;">CADASTRE-SE PARA CONVERSAR COM OS ATENDENTES </h1> <br>
+    </header>
+    <div id="conteudo">    
+        <div id="lista">
+            <label for="lista1">Formas de Canais de Atendimento:</label>
+            <ul name"lista1">
+                <li><img src="WhatsApp-icon.png">(81)99934-6955</li>
+                <li><img src="Mail-icon.png">conversa45@gmail.com</li>
+                <li><img src="Phone-icon.png">6003-7693</li>
+                <li><img src="Clock-icon.png">8:30 AM à 17:45 PM</li>
+            </ul><br>
+        </div>
+        <div id="formulario">
+            <form name="formulario">
+                <label for="nome">SEU NOME COMPLETO</label><br>
+                <input type="text" name="nome" id="nome" size="35" required>
+                
+                 <br>
+                <label for="fone">TELEFONE</label><br>
+                <input type="text" name="fone" id="fone" size="35" maxlength="15" minlength="11" placeholder="(DDD) número">
+                <br>
+                
+                <label for="endereco">ENDEREÇO</label><br>
+                <input type="text" name="endereco" id="endereco" size="35" placeholder="Rua, número" required>
+                <br>
+                
+                <label for="email">EMAIL OU GMAIL</label><br>
+                <input type="email" name="email" id="email" size="35" required>
+                <br>
+                
+                <label for="mensagem">SUA MENSAGEM</label><br>
+                <textarea name="mensagem" id="mensagem" row="5" cols="25" placeholder="Digite aqui" required>
+                </textarea>
+
+                <br><br>
+                <button type="submit" value="Enviar" id="botao"><img src="Enviar3.png" height="31px" width="125px"></button>
+               
+            </form>
+        </div>
+    </div>
+        <div id="nuvens"><img src="nuvens3.png" height="61%" width="100%"></div>
+
+    <footer>
+        <p>Desenvolvidor JOÃO FELIPE </p>
+    </footer>
+</div>
+</body>
+
+</html>
